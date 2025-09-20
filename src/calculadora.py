@@ -7,7 +7,7 @@ def dividir(a, b):
     return a / b
 
 def multiplicacao(a, b):
-      if b == 0:
+    if b == 0:
         raise ValueError("O valor é zero!")
     return a * b
 
