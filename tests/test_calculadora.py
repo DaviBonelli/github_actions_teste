@@ -12,10 +12,10 @@ def test_dividir():
         dividir(10, 0)
 
 def test_multiplicacao():
-    assert multiplicar(2, 3) == 6
+    assert multiplicacao(2, 3) == 6
     with pytest.raises(ValueError):
-        multiplicar(0, 5) == 0
+        multiplicacao(0, 5) == 0
 
 def test_subtracao():
-    assert subtrair(10, 2) == 8
-    assert subtrair(4, 1) == 3
+    assert subtracao(10, 2) == 8
+    assert subtracao(4, 1) == 3
