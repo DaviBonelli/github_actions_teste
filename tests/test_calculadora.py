@@ -13,8 +13,7 @@ def test_dividir():
 
 def test_multiplicacao():
     assert multiplicacao(2, 3) == 6
-    with pytest.raises(ValueError):
-        multiplicacao(0, 5) == 0
+    assert multiplicacao(0, 5) == 0
 
 def test_subtracao():
     assert subtracao(10, 2) == 8
